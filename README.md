@@ -25,9 +25,8 @@ cum_active_cases : Cumulative number of infected person till that date. Calculat
 
 # Vaccination data
 
-Stored in vaccinations.csv. We only rely on figures that are verifiable based on public official sources.
+## Column Discription
 
-The population estimates we use to calculate per-capita metrics are all based on the last revision of the United Nations World Population Prospects. The exact values can be viewed here.
 
     date: date of the observation.
     total_vaccinations: total number of doses administered. For vaccines that require multiple doses, each individual dose is counted. If a person receives one dose of the vaccine, this metric goes up by 1. If they receive a second dose, it goes up by 1 again. If they receive a third/booster dose, it goes up by 1 again.
@@ -48,7 +47,7 @@ The population estimates we use to calculate per-capita metrics are all based on
     
     people_fully_vaccinated_per_hundred: people_fully_vaccinated per 100 people in the total population of the country.
 
-Note: for people_vaccinated and people_fully_vaccinated we are dependent on the necessary data being made available, so we may not be able to make these metrics available for some countries.
+Note: for people_vaccinated and people_fully_vaccinated we are dependent on the necessary data being made available.
 
 ## An example of how we calculate our metrics
 5 people take part in a vaccination program, to be given a vaccine that requires 2 doses to be effective against the disease.
