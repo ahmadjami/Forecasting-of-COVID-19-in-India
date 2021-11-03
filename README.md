@@ -11,6 +11,7 @@ Main file in this dataset is `COVID-19_India_Data.csv ` and the detailed descrip
     cum_cases : Cumulative number of confirmed cases till that date
     cum_death : Cumulative number of deaths till that date
     cum_recovered : Cumulative number of recovered patients till that date
+    new_recovered : Daily new recovery 
     new_cases : New confirmed cases. Calculated by:  current cum_cases - previous cum_case
     new_death : New confirmed deaths. Calculated by: current cum_death - previous cum_death
     cum_active_cases : Cumulative number of infected person till that date. Calculated by: cum_cases - cum_death - cum_recovered
